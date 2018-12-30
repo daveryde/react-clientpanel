@@ -34,7 +34,7 @@ class AddClient extends Component {
   onChange = e => this.setState({ [e.target.name]: e.target.value });
 
   render() {
-    const { disableBalaceOnAdd } = this.props.settings;
+    const { disableBalanceOnAdd } = this.props.settings;
 
     return (
       <div>
@@ -108,7 +108,7 @@ class AddClient extends Component {
                   name="balance"
                   onChange={this.onChange}
                   value={this.state.balance}
-                  disabled={disableBalaceOnAdd}
+                  disabled={disableBalanceOnAdd}
                 />
               </div>
 
