@@ -2,11 +2,10 @@
   "name": "react_fb_clientpanel",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://daveryde.github.io/react-clientpanel",
   "dependencies": {
     "classnames": "^2.2.6",
     "firebase": "^5.7.0",
-    "gh-pages": "^1.2.0",
+    "merge": ">=1.2.1"
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-redux": "^5.1.1",
